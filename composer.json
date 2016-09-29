@@ -1,0 +1,16 @@
+{
+    "name": "cakeweb/exception",
+    "description": "Exception que permite código alfanumérico",
+    "type": "git",
+    "authors": [
+        {
+            "name": "CakeWeb",
+            "email": "contato@cakeweb.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CakeWeb\\": "src/"
+        }
+    }
+}
