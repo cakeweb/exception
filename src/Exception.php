@@ -27,7 +27,7 @@ class Exception extends \Exception
             $vars = is_bool($params['i18n'])
                 ? null
                 : $params['i18n'];
-            $message = \Application\I18n::_($messageOrConst, $vars);
+            $message = \CakeWeb\I18n::_($messageOrConst, $vars);
         }
 
         // Creates exception instance
